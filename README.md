@@ -1,2 +1,2 @@
 # Trabalho Frontend
-trabalho para formação em curso
+trabalho para formação do curso de frontend da proz
