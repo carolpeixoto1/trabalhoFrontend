@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Publicação</title>
+</head>
+<body>
+    <header>
+        <h1>LOGO</h1>
+        <nav> 
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">tutoriais</a></li>
+                <li><a href="">artigos</a></li>
+                <li><a href="">contato</a></li>
+
+
+            </ul>
+          
+
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Nova Publicação</h1>
+        <form action="#" method="post">
+            <label for="titulo">titulo</label>
+            <input type="text"  placeholder="digite aqui o titulo"  id="titulo" name="titulo" required /><br>
+
+            <label for="imagem">imagem</label>
+            <input type="file" id="imagem" name="imagem" accept="image/*" required ><br>
+
+            <label for="tipo-publicacao">tipo da publicação</label>
+            <select name="tipo-publicacao" required ="tipo-publicacao">
+                <option value="">selecione um tipo</option>
+                <option value="noticia">notícia</option>
+                <option value="tutorial">tutorial</option>
+                <option value="artigo">artigo</option>
+            </select><br>
+            <label for="descricao">descrição</label><br>
+            <textarea  placeholder="digite uma descrição da publicação"  rows="3" id="descricao" name="descricao" required ></textarea><br>
+            <label for="publicacao">publicação</label><br>
+            <textarea  placeholder="digite o texto da publicação"  rows="3" id="publicacao" name="publicacao" required ></textarea><br>
+            <input type="submit" value="enviar">
+
+        </form>
+        </div>
+    </main>
+
+    <footer>
+        <h1>contato</h1>
+        <p>email:soultech@gmail.com</p>
+        <p>telefone: (42)9645-5522</p>
+    </footer>
+</body>
+</html>
